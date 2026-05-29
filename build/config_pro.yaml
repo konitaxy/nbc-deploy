@@ -65,7 +65,7 @@ mysql:
   log-zap: false
 redis:
   db: 0
-  addr: redis:6379
+  addr: redisnbc:6379
   password: ""
 system:
   env: public
