@@ -1,4 +1,0 @@
-/*! 
- Build based on melong-console 
- Time : 1779857869000 */
-import{r as t,k as e,o as n,w as o,O as a,b as s,c as r,s as u,N as l,t as i}from"../assets/pixel-entry-index.1779857869000.js";const m={name:"AsyncSubmenu"},c=Object.assign(m,{props:{routerInfo:{default:function(){return null},type:Object}},setup:m=>(c,f)=>{const p=t("el-icon"),b=t("el-sub-menu");return n(),e(b,{ref:"subMenu",index:m.routerInfo.name},{title:o(()=>{return[s("div",null,[m.routerInfo.meta.bootstrapIcon?(n(),r("i",{key:0,class:u(["item-label-icon",(t=m.routerInfo.meta.bootstrapIcon,"bootstrap-icon "+t)]),style:{height:"0.9em",width:"0.9em","margin-bottom":"8px","margin-right":"15px"}},null,2)):(n(),e(p,{key:1},{default:o(()=>[(n(),e(l(m.routerInfo.meta.icon)))]),_:1})),s("span",null,i(c.$t("lang."+m.routerInfo.meta.title)),1)])];var t}),default:o(()=>[a(c.$slots,"default")]),_:3},8,["index"])}});export{c as default};

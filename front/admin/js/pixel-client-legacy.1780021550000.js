@@ -1,0 +1,4 @@
+/*! 
+ Build based on gin-vue-admin 
+ Time : 1780021550000 */
+System.register(["../gva/pixel-index-legacy.1780021550000.js"],(function(t){"use strict";var n;return{setters:[function(t){n=t.s}],execute:function(){t("l",(function(t){return n({url:"/admin/client/list",method:"post",data:t})})),t("s",(function(t){return n({url:"/admin/client/setManager",method:"post",data:t})})),t("r",(function(t){return n({url:"/admin/client/remark",method:"post",data:t})})),t("b",(function(t){return n({url:"/admin/client/review",method:"post",data:t})})),t("c",(function(t){return n({url:"/admin/client/changeStatus",method:"post",data:t})})),t("e",(function(t){return n({url:"/admin/client/kyb",method:"post",data:t})})),t("g",(function(t){return n({url:"/admin/client/dueDiligence/get",method:"get",params:t})})),t("a",(function(t){return n({url:"/admin/client/adminLogin",method:"post",data:t})}))}}}));
