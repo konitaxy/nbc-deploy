@@ -36,12 +36,12 @@ db-list:
 email:
   to: 510172593@qq.com
   port: 587
-  from: info@pixelcard.cloud
+  from: info@newbeecard.com
   host: smtp.mandrillapp.com
   reply-to: 
   is-ssl: true
   secret: md-Q3d_3mucxNEqtIzORQgx6A
-  nickname: pixel_finance
+  nickname: newbeecard_finance
 excel:
   dir: ./resource/excel/
 jwt:
@@ -97,9 +97,9 @@ zap:
   stacktrace-key: stacktrace
   log-in-console: true
 domain:
-  referral: "https://pixelcard.cloud"
-  artist: "https://pixelcard.cloud"
-  admin: "https://admin.pixelcard.com"
+  referral: "https://newbeecard.com"
+  artist: "https://newbeecard.com"
+  admin: "https://admin.newbeecard.com"
 carbin:
   base-url: "https://api.cardbin.io"
   app-id: "1894343052164249928"
