@@ -1,4 +1,0 @@
-/*! 
- Build based on gin-vue-admin 
- Time : 1780283203000 */
-!function(){var e=document.createElement("style");e.innerHTML=".big{width:100%;height:calc(100vh - 220px);background-color:#f4f4f4;position:relative}.inner{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.inner p{text-align:center;font-size:24px}.inner .leftPic{width:160px;margin-left:44%;margin-top:20px}\n",document.head.appendChild(e),System.register(["../gva/pixel-index-legacy.1780283203000.js"],(function(e){"use strict";var n,t,i,r;return{setters:[function(e){n=e._,t=e.o,i=e.c,r=e.v}],execute:function(){e("default",n({name:"Error"},[["render",function(e,n,s,a,c,o){return t(),i("div",null,n[0]||(n[0]=[r('<div class="big"><div class="inner"><img src="./assets/notFound.4e921f05.png"><p>页面被神秘力量吸走了</p><p style="font-size:18px;line-height:40px;">常见问题为当前此角色无当前路由，如果确定要使用本路由，请到角色管理进行分配</p><p>↓</p><img src="./assets/qm.e1327269.png" class="leftPic"></div></div>',1)]))}]]))}}}))}();
