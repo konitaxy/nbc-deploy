@@ -1,4 +1,0 @@
-/*! 
- Build based on gin-vue-admin 
- Time : 1785154079000 */
-System.register(["../gva/pixel-index-legacy.1785154079000.js"],(function(e){"use strict";var n,t,u,r,o,i,f,c,l;return{setters:[function(e){n=e.b,t=e.o,u=e.l,r=e.w,o=e.m,i=e.e,f=e.d,c=e.t,l=e.P}],execute:function(){e("default",Object.assign({name:"AsyncSubmenu"},{props:{routerInfo:{default:function(){return null},type:Object}},setup:function(e){return function(s,a){var d=n("el-icon"),m=n("el-sub-menu");return t(),u(m,{ref:"subMenu",index:e.routerInfo.name},{title:r((function(){return[e.routerInfo.meta.icon?(t(),u(d,{key:0},{default:r((function(){return[(t(),u(o(e.routerInfo.meta.icon)))]})),_:1})):i("",!0),f("span",null,c(e.routerInfo.meta.title),1)]})),default:r((function(){return[l(s.$slots,"default")]})),_:3},8,["index"])}}}))}}}));
