@@ -1,4 +1,0 @@
-/*! 
- Build based on melong-console 
- Time : 1785154861000 */
-System.register([],function(t,r){"use strict";return{execute:function(){t("r",function(){var t=(new Date).getFullYear(),r=t-55,a=t-20,n=Math.floor(Math.random()*(a-r+1))+r,o=String(Math.floor(12*Math.random())+1).padStart(2,"0"),e=String(Math.floor(28*Math.random())+1).padStart(2,"0");return"".concat(n,"-").concat(o,"-").concat(e)})}}});
