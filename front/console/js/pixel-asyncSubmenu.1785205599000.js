@@ -1,4 +1,0 @@
-/*! 
- Build based on melong-console 
- Time : 1785205599000 */
-import{_ as t,d as e,l as a,o as n,w as o,Q as s,a as r,c as u,n as l,P as i,t as c}from"../assets/pixel-entry-index.1785205599000.js";const m={name:"AsyncSubmenu"},d=t(Object.assign(m,{props:{routerInfo:{default:function(){return null},type:Object}},setup:t=>(m,d)=>{const f=e("el-icon"),p=e("el-sub-menu");return n(),a(p,{ref:"subMenu",index:t.routerInfo.name},{title:o(()=>{return[r("div",null,[t.routerInfo.meta.bootstrapIcon?(n(),u("i",{key:0,class:l(["item-label-icon",(e=t.routerInfo.meta.bootstrapIcon,"bootstrap-icon "+e)]),style:{height:"0.9em",width:"0.9em","margin-bottom":"8px","margin-right":"15px"}},null,2)):(n(),a(f,{key:1},{default:o(()=>[(n(),a(i(t.routerInfo.meta.icon)))]),_:1})),r("span",null,c(m.$t("lang."+t.routerInfo.meta.title)),1)])];var e}),default:o(()=>[s(m.$slots,"default",{},void 0,!0)]),_:3},8,["index"])}}),[["__scopeId","data-v-12aad92c"]]);export{d as default};
