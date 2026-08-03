@@ -1,4 +1,0 @@
-/*! 
- Build based on melong-console 
- Time : 1785207197000 */
-System.register(["./pixel-bottomInfo.vue_vue_type_style_index_0_lang-legacy.1785207197000.js","../assets/pixel-entry-index-legacy.1785207197000.js"],function(e,n){"use strict";var t,r,a,l,s,i,o;return{setters:[null,function(e){t=e._,r=e.d,a=e.c,l=e.o,s=e.a,i=e.b,o=e.t}],execute:function(){var n={class:"bottom-info"},u={href:"https://newbeecard.com"};e("default",t({name:"BottomInfo"},[["render",function(e,t,c,d,p,f){var v=r("el-divider");return l(),a("div",n,[s("div",null,[t[0]||(t[0]=s("span",null,"Powered by",-1)),s("span",null,[s("a",u,o(e.$GIN_VUE_ADMIN.appName),1)]),i(v,{direction:"vertical"}),t[1]||(t[1]=s("span",null,"Copyright",-1)),t[2]||(t[2]=s("span",null,[s("a",{href:"https://newbeecard.com"},"NEWBEECARD")],-1))])])}]]))}}});
