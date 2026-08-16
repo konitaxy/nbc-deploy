@@ -1,0 +1,4 @@
+/*! 
+ Build based on melong-console 
+ Time : 1786863665000 */
+import{k as a,j as e,s as o,z as n,y as t,E as s,c as i,b as l,a as r,w as d,d as p,o as c}from"../assets/pixel-entry-index.1786863665000.js";import m from"./pixel-index.17868636650004.js";import"./pixel-NEWBEECARD-logo.1786863665000.js";import"./pixel-screenfull.1786863665000.js";const u={__name:"admin_snap_login",setup(u){const w=a(),g=o();return e(()=>{g.params.code?n({code:g.params.code}).then(a=>{if(0==a.code){if(window.localStorage.getItem("token")===a.data)return void window.location.replace("/");window.localStorage.setItem("token",a.data),w.setToken(a.data),t.push({name:"Login",replace:!0}),window.location.reload()}}):s.error("Invalid to Login")}),(a,e)=>{const o=p("el-header");return c(),i("div",null,[l(o,null,{default:d(()=>[l(m)]),_:1}),e[0]||(e[0]=r("h1",null,"wait for logining",-1))])}}};export{u as default};
