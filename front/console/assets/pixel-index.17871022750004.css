@@ -1,4 +1,0 @@
-/*! 
- Build based on melong-console 
- Time : 1787102275000 */
-.el-sub-menu__title .item-label,.el-menu-item .item-label{transition-property:color;transition-timing-function:ease-in-out;transition-duration:.3s}.el-scrollbar .el-scrollbar__view{height:100%}.menu-info .menu-contorl{line-height:27px;font-size:20px;display:table-cell;vertical-align:middle}.el-menu-item.is-active{color:var(--el-color-primary)}.el-menu-item.is-active .item-label{color:var(--el-color-primary);transition-property:color;transition-timing-function:fade-in-out;transition-duration:.3s}.el-menu-item.is-active .item-label .item-label-icon{color:var(--el-color-primary)}.modal-loginout{width:400px;height:200px;opacity:100;position:absolute;bottom:0;left:0}
