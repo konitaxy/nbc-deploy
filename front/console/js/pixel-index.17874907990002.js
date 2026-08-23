@@ -1,0 +1,4 @@
+/*! 
+ Build based on melong-console 
+ Time : 1787490799000 */
+import e from"./pixel-menuItem.1787490799000.js";import r from"./pixel-asyncSubmenu.1787490799000.js";import{B as n,d as o,l as t,m as s,o as u,w as i,c as a,F as l,G as f,P as d}from"../assets/pixel-entry-index.1787490799000.js";const m={name:"AsideComponent"},p=Object.assign(m,{props:{routerInfo:{type:Object,default:()=>null}},setup(m){const p=m,c=n(()=>p.routerInfo.children&&p.routerInfo.children.filter(e=>!e.hidden).length?r:e);return(e,r)=>{const n=o("AsideComponent");return m.routerInfo.hidden?s("",!0):(u(),t(d(c.value),{key:0,"router-info":m.routerInfo},{default:i(()=>[m.routerInfo.children&&m.routerInfo.children.length?(u(!0),a(l,{key:0},f(m.routerInfo.children,e=>(u(),t(n,{key:e.name,"router-info":e},null,8,["router-info"]))),128)):s("",!0)]),_:1},8,["router-info"]))}}});export{p as default};
