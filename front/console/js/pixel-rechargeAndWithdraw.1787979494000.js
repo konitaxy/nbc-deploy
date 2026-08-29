@@ -1,0 +1,4 @@
+/*! 
+ Build based on melong-console 
+ Time : 1787979494000 */
+import e from"./pixel-index.178797949400021.js";import l from"./pixel-index.178797949400019.js";import{d as a,c as t,o as r,b as i,w as p}from"../assets/pixel-entry-index.1787979494000.js";import"./pixel-withdraw_form.1787979494000.js";import"./pixel-clipboard-polyfill.es6.1787979494000.js";import"./pixel-format.1787979494000.js";import"./pixel-date.1787979494000.js";import"./pixel-excel.1787979494000.js";import"./pixel-recharge_form.1787979494000.js";const s={__name:"rechargeAndWithdraw",setup:s=>(s,o)=>{const m=a("el-tab-pane"),d=a("el-tabs");return r(),t("div",null,[i(d,null,{default:p(()=>[i(m,{label:s.$t("lang.wallet_recharge")},{default:p(()=>[i(l)]),_:1},8,["label"]),i(m,{label:s.$t("lang.wallet_withdrawal")},{default:p(()=>[i(e)]),_:1},8,["label"])]),_:1})])}};export{s as default};
