@@ -115,15 +115,16 @@ gzy:
   pub-key: "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCG0Ih6fs7Vym2iBv4n5gouJSoZaGABCy3voDnPiAQOCgjdWJtSH/D3QokDE8LbGcsX4KVPpHXAunjyBWPfkGpRgwySNN2Mjxd9xCO4YDGjB89n/Fy4+UygcTC5/eJiIs3I4mQd+gonJJL5FYfHO3jDPQc+ZlWJsAFkqlBDa4uvmQIDAQAB"
 
 adsvcc:
-  base-url: "http://18.162.211.187:89/v1" # 测试环境；生产按开放平台下发
-  app-id: ""
-  app-secret: ""
+  base-url: "https://api.adsvcc.com" # 测试环境；生产按开放平台下发
+  app-id: "06GCREM7FWCZSA3Y7XBX"
+  app-secret: "bI2hyNcu2oXc9TfPVGZn-5eaVq2JPYv4JXSMeQEpjU0"
   private-key: "" # PKCS#8 PEM，非空优先于 private-key-path
   private-key-path: "resource/keys/adsvcc_private.pem"
-  platform-public-key: "" # 平台公钥，异步通知验签用
+  platform-public-key: ""
+  # 平台公钥，异步通知验签用；空则用文档默认公钥
   default-cardholder-id: 0
   provider-id: 0 # 共享卡钱包 /share-card/* 可选供应商 id
-  login-password: "" # 可选，拉取 /card/cvv
+  login-password: "Zz123456" # 可选，拉取 /card/cvv
   mfa-code: ""
 tron:
   enabled: true
