@@ -115,7 +115,7 @@ gzy:
   pub-key: "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCG0Ih6fs7Vym2iBv4n5gouJSoZaGABCy3voDnPiAQOCgjdWJtSH/D3QokDE8LbGcsX4KVPpHXAunjyBWPfkGpRgwySNN2Mjxd9xCO4YDGjB89n/Fy4+UygcTC5/eJiIs3I4mQd+gonJJL5FYfHO3jDPQc+ZlWJsAFkqlBDa4uvmQIDAQAB"
 
 adsvcc:
-  base-url: "https://api.adsvcc.com" # 测试环境；生产按开放平台下发
+  base-url: "https://api.adsvcc.com/v1" # 测试环境；生产按开放平台下发
   app-id: "06GCREM7FWCZSA3Y7XBX"
   app-secret: "bI2hyNcu2oXc9TfPVGZn-5eaVq2JPYv4JXSMeQEpjU0"
   private-key: "" # PKCS#8 PEM，非空优先于 private-key-path
