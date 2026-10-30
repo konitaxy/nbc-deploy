@@ -42,7 +42,6 @@ email:
   is-ssl: true
   secret: md-Q3d_3mucxNEqtIzORQgx6A
   nickname: newbeecard_finance
-  mg-token: ""
   domain: info.spacexxx.world
 excel:
   dir: ./resource/excel/
