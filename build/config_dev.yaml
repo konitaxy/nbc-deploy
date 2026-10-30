@@ -36,12 +36,14 @@ db-list:
 email:
   to: 510172593@qq.com
   port: 587
-  from: info@newbeecard.com
+  from: info@info.spacexxx.world
   host: smtp.mandrillapp.com
   reply-to: 
   is-ssl: true
   secret: md-Q3d_3mucxNEqtIzORQgx6A
   nickname: newbeecard_finance
+  api-key: ""
+  domain: info.spacexxx.world
 excel:
   dir: ./resource/excel/
 jwt:
