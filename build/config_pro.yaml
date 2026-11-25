@@ -109,7 +109,7 @@ carbin:
   app-id: "1894343052164249928"
   app-secret: "b2434d156a154e8cabf64cd43e557303"
 gzy:
-  enable: true # false 时不自动刷新 token、不定时拉取交易
+  enable: false # false 时不自动刷新 token、不定时拉取交易
   base-url: "https://x-api.photonpay.com"
   app-id: "9wrv8XZJ"
   app-secret: "3f322b0132c5162b39038d329cd0c5c532c00110"
